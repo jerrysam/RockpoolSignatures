@@ -6,12 +6,12 @@
       <mj-class name="emailWidth" width="320px" style="width: 320px;"/>
     </mj-attributes>
   </mj-head>
+  
   <mj-body>
     <mj-container mj-class="emailWidth leftAlign">
+
       <mj-section padding="0" mj-class="leftAlign">
       <!-- Header section -->
-        <mj-column mj-class="leftAlign">
-          <!-- first column -->
           <mj-text font-size="18px" padding="2px" color="#C3002F" font-weight="700">
               <!-- Name -->
               Full Name
@@ -23,62 +23,57 @@
           <mj-text font-size="14px" color="#C3002F"  padding="12px 2px 0 2px"  font-weight="700">
               Rockpool Investments
           </mj-text>
-        </mj-column>
       </mj-section>
 
       <mj-section padding="8px 0 0 0" mj-class="leftAlign">
       <!-- Information section -->          
-          <mj-column mj-class="emailWidth leftAlign">
-            <mj-table padding="0 0 10px 0" font-size="12px" mj-class="emailWidth">
-              <tr style="height:12px;">
-                <td rowspan="3" style="padding: 0 20px 0 0;">
-                  <img align="left"  width="60" style="width:60px;height:60px;margin: 0; border: 0; padding: 0; display: block;" src="https://image.ibb.co/kEyndx/Rockpool_Logo.png">
-                </td>
-                <td style="width: 20px;">
-                  <span style="color:#C3002F;font-weight:700;">D</span>
-                </td>
-                <td style="width: 120px;">
-                  Direct Line
-                </td>
-                <td style="width: 120px;">
-                  10 Bressenden Place
-                </td>
-              </tr>
-              <tr style="height:12px;">
-                <td style="width: 20px;">
-                  <span style="color:#C3002F;font-weight:700;">T</span>
-                </td>
-                <td style="width: 120px;">
-                  Telephone
-                </td>
-                <td style="width: 120px;">
-                  London SW1E 5DH
-                </td>
-              </tr>
-              <tr style="height:12px;">
-                <td style="width: 20px;">
-                  <span style="color:#C3002F;font-weight:700;">M</span>
-                </td>
-                <td style="width: 120px;">
-                  Mobile
-                </td>
-                <td style="width: 120px;">
-                  rockpool.uk.com
-                </td>
-              </tr>
-            </mj-table>
-          </mj-column>
+          <mj-table padding="0 0 10px 0" font-size="12px" mj-class="emailWidth">
+            <tr style="height:12px;">
+              <td rowspan="3" style="padding: 0 20px 0 0;">
+                <img align="left"  width="60" style="width:60px;height:60px;margin: 0; border: 0; padding: 0; display: block;" src="https://image.ibb.co/kEyndx/Rockpool_Logo.png">
+              </td>
+              <td style="width: 20px;">
+                <span style="color:#C3002F;font-weight:700;">D</span>
+              </td>
+              <td style="width: 120px;">
+                Direct Line
+              </td>
+              <td style="width: 120px;">
+                10 Bressenden Place
+              </td>
+            </tr>
+            <tr style="height:12px;">
+              <td style="width: 20px;">
+                <span style="color:#C3002F;font-weight:700;">T</span>
+              </td>
+              <td style="width: 120px;">
+                Telephone
+              </td>
+              <td style="width: 120px;">
+                London SW1E 5DH
+              </td>
+            </tr>
+            <tr style="height:12px;">
+              <td style="width: 20px;">
+                <span style="color:#C3002F;font-weight:700;">M</span>
+              </td>
+              <td style="width: 120px;">
+                Mobile
+              </td>
+              <td style="width: 120px;">
+                rockpool.uk.com
+              </td>
+            </tr>
+          </mj-table>
       </mj-section>
 
       <mj-section padding="10px 0" mj-class="leftAlign">
       <!-- Bottom legal section -->
-        <mj-column mj-class="emailWidth leftAlign">
-          <mj-text font-size="9px" font-style="italic"  padding="0px" line-height="15px">
-            Rockpool Investments LLP is registered in the UK (OC369009) and is authorised and regulated by the Financial Conduct Authority.
-          </mj-text>
-        </mj-column>
+        <mj-text font-size="9px" font-style="italic"  padding="0px" line-height="15px">
+          Rockpool LLP is registered in the UK (OC369009) and is authorised and regulated by the Financial Conduct Authority.
+        </mj-text>
       </mj-section>
+
     </mj-container>
   </mj-body>
 </mjml>
-
